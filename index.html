@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>音频啸叫处理 Demo</title>
+  <title>啸叫抑制效果</title>
 </head>
 <body>
+  <h1>啸叫抑制效果</h1>
+
+  <!-- 展示图片 -->
+  <div>
+    <img src="xiaojiao.png" alt="啸叫示意图" style="max-width: 100%; height: auto;">
+  </div>
+
+  <!-- 播放原始音频 -->
   <h2>原始音频</h2>
   <audio controls>
     <source src="111000_20250523121221.wav" type="audio/wav">
-    Your browser does not support the audio element.
+    您的浏览器不支持 audio 元素。
   </audio>
 
+  <!-- 播放处理后音频 -->
   <h2>处理后音频</h2>
   <audio controls>
     <source src="111000_20250523121221_out.wav" type="audio/wav">
-    Your browser does not support the audio element.
+    您的浏览器不支持 audio 元素。
   </audio>
 </body>
 </html>
